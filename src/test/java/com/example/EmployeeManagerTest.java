@@ -19,7 +19,6 @@ public class EmployeeManagerTest {
         Employee employee2 = new Employee("2", 30000);
         employee2.setPaid(true);
 
-
         List<Employee> employeeList = Arrays.asList(employee1, employee2);
 
         EmployeeManager employeeManager = new EmployeeManager(new EmployeeRepositoryStubReturnEmployees(), new DummyBankService());
