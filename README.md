@@ -1,13 +1,10 @@
 # Mockito Unit Testing
 
-### Test Doubles 
+## Description 
 
-> Implementerade de två otillgängliga interfaces BankService och EmployeeRepository som test doubles - Stub and Spy objekt.
- 
->Skapade test som använder mockito för att göra lämpliga testdoubles
-Skapade även test där egna klasser används som test doubles.
+> Implementerade de två otillgängliga interfacen BankService och EmployeeRepository som test doubles - Stub och Spy objekt. Skapade test som använder mockito för att göra lämpliga testdoubles. Skapade även test där egna klasser används som test doubles. Efter varje test med tillhörande kod skapades en ny commit från egen branch.  
 
-### Test Driven Development
+## Technologies used
 
->Implementerade många test med hjälp av Test Driven Development (TDD). Efter varje test med
-tillhörande kod skapades en ny commit från egen branch. Efter varje steg committas testerna och i slutet fungerar samtliga test. 
+> - Mockito
+> - TDD 
